@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class DaemonThreadsDemo implements Runnable {
-
+    @Override
     public void run() {
         System.out.println("\nЗадание 1: Потоки-демоны");
 

@@ -3,7 +3,7 @@ package secondZadanie;
 import java.util.Random;
 
 public class UncaughtExceptionDemo implements Runnable{
-
+    @Override
     public void run() {
         System.out.println("\nЗадание 2: Обработчики неконтролируемых исключений");
 

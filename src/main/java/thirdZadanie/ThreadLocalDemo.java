@@ -1,7 +1,7 @@
 package thirdZadanie;
 
 public class ThreadLocalDemo implements Runnable{
-
+    @Override
     public void run() {
         System.out.println("\nЗадание 3: Локальные переменные потока (ThreadLocal)");
 
