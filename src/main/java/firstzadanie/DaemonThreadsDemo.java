@@ -54,6 +54,6 @@ public class DaemonThreadsDemo implements Runnable {
             Thread.sleep(1000);
         } catch (InterruptedException ignored) {}
 
-        System.out.println("--- Конец задания 1 ---");
+        System.out.println("Конец задания 1");
     }
 }
