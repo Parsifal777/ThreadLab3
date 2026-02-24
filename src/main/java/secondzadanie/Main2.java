@@ -1,8 +1,8 @@
 package secondzadanie;
 
 public class Main2 {
-    private static final int PRODUCER_ITEMS = 1000;
-    private static final int CONSUMER_ITEMS = 1000;
+    private static final int PRODUCER_ITEMS = 1000000;
+    private static final int CONSUMER_ITEMS = 1000000;
 
     public static void main(String[] args) throws InterruptedException {
         SharedList sharedList = new SharedList();
